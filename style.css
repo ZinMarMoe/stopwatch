@@ -1,0 +1,235 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+body{
+    background-color: #eeb310;
+    font-family: Arial;
+}
+.main-section{
+    width: 80%;
+    height: 80vh;
+    margin: 5% 10%;
+    position: relative;
+}
+/* --------------------------Header Section--------------------------- */
+.header{
+    width:auto;
+    height: auto;
+    margin:5% 0;
+    position: relative;
+}
+.first,.second{
+    color:#fff;
+    font-size: 50px;
+    font-weight: normal;
+    padding:5%;
+    display:inline-block;
+    
+}
+.first{
+    margin:0 32%;
+
+}
+.second{
+margin-left:14%;
+}
+/* --------------------Stopwatch Section---------------- */
+.section-stopwatch{
+    display: inline-block;
+    height: auto;
+    width: 100px;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 30px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    color:#fff;
+
+}
+/* --------------------------------Button Section---------------------- */
+.section-group{
+    width:auto;
+    height: 80px;
+    margin:0 10%;
+    position: relative;
+}
+.btn-group{
+    width:800px;
+    height: 60px;
+    margin: auto;
+    margin-left: 13%;
+    padding:5px 0;
+
+}
+.btn-start,.btn-stop,.btn-reset{
+    width: 140px;
+    height: 50px;
+    opacity: 1;
+    /* position: absolute; */
+    background-color: transparent;
+    font-size: 15px;
+    color:#fff;
+    border-radius: 5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-color: #fff;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 30px;
+}
+/* .btn-start{
+    margin-left: 10%;
+}
+.btn-stop{
+    margin-left: 50%;
+}
+.btn-reset{
+    margin-left: 30%;
+} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .btn-group{
+        width: 200px;
+        height: 200px;
+        display: table;
+    }
+    .btn-reset,.btn-start,.btn-stop{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        display: table;
+        margin-bottom: 10px;
+    }
+}
+    
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+body{
+    background-color: #eeb310;
+    font-family: Arial;
+}
+.main-section{
+    width: 80%;
+    height: 80vh;
+    margin: 5% 10%;
+    position: relative;
+}
+/* --------------------------Header Section--------------------------- */
+.header{
+    width:auto;
+    height: auto;
+    margin:5% 0;
+    position: relative;
+}
+.first,.second{
+    color:#fff;
+    font-size: 50px;
+    font-weight: normal;
+    padding:5%;
+    display:inline-block;
+    
+}
+.first{
+    margin:0 32%;
+
+}
+.second{
+margin-left:14%;
+}
+/* --------------------Stopwatch Section---------------- */
+.section-stopwatch{
+    display: inline-block;
+    height: auto;
+    width: 100px;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 30px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    color:#fff;
+
+}
+/* --------------------------------Button Section---------------------- */
+.section-group{
+    width:auto;
+    height: 80px;
+    margin:0 10%;
+    position: relative;
+}
+.btn-group{
+    width:800px;
+    height: 60px;
+    margin: auto;
+    margin-left: 13%;
+    padding:5px 0;
+
+}
+.btn-start,.btn-stop,.btn-reset{
+    width: 140px;
+    height: 50px;
+    opacity: 1;
+    /* position: absolute; */
+    background-color: transparent;
+    font-size: 15px;
+    color:#fff;
+    border-radius: 5px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-color: #fff;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 30px;
+}
+/* .btn-start{
+    margin-left: 10%;
+}
+.btn-stop{
+    margin-left: 50%;
+}
+.btn-reset{
+    margin-left: 30%;
+} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .btn-group{
+        width: 200px;
+        height: 200px;
+        display: table;
+    }
+    .btn-reset,.btn-start,.btn-stop{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        display: table;
+        margin-bottom: 10px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding:10px 0;
+    }
+}
+    
